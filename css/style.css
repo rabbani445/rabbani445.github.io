@@ -1,0 +1,124 @@
+body{
+	font-size: 14px;
+	font-family
+}
+.navbar{
+	background: rgb(0,0,0,0.7);
+	border-bottom: 5px solid #26e269;
+}
+#home-section{
+	background:url('../img/home-section.jpg');
+	background-size: cover;
+	min-height: 800px;
+	background-attachment: fixed;
+}
+.home-overlay{
+	background: rgb(0,0,0,0.5);
+	min-height: 800px;
+}
+.home-inner{
+	padding-top: 180px;
+	padding-bottom: 50px;
+}
+.font-design{
+	background: #fff; 
+	font-size: 25px; 
+	color: #26e269; 
+	border-radius: 5px; 
+	padding: 5px;
+}
+.font-design1{
+	background: #000; 
+	font-size: 25px; 
+	color: #26e269; 
+	border-radius: 5px; 
+	padding: 5px;
+}
+
+
+#explore-section{
+	background: #4296ff;
+}
+.card-inner{
+	background: rgb(0,0,0,0.7)!important;
+}
+.uicard{
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 2px 0px 16px -4px rgba(0,0,0,.5);
+    box-shadow: 2px 0px 16px -4px rgba(0,0,0,.5);
+    background: #262626;
+}
+.uicard .pic img{
+    -webkit-transition: all .5s ease .2s;
+    transition: all .5s ease .2s;
+    height: 400px;
+}
+.uicard:hover .pic img{
+    opacity: 0.5;
+    -webkit-transform: translateX(25%);
+    transform: translateX(25%);
+}
+.details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background: #26e269;
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    -webkit-transform: perspective(2000px) rotateY(-90deg);
+    transform: perspective(2000px) rotateY(-90deg);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.uicard:hover .details{
+    -webkit-transform: perspective(2000px) rotateY(0deg);
+    transform: perspective(2000px) rotateY(0deg);
+}
+.details .details-inner{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 8px 8px;
+    background: #fff;
+}
+.details .details-inner ul{
+    margin: 10px auto 0;
+    display: table;
+    padding: 0;
+}
+.details .details-inner ul li{
+    list-style: none;
+    margin: 0 4px;
+    float: left;
+}
+.details .details-inner ul li a{
+    display: block;
+    width: 30px;
+	height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #262626;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.details .details-inner ul li a:hover{
+    background: #26e269;
+}
+
+
+#create-section{
+	background: url('../img/banner-bg.jpg') no-repeat center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#share-section{
+	background: #4296ff;
+}
+#footer-section{
+	background: #000;
+}
